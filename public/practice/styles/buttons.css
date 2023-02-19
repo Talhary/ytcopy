@@ -1,0 +1,142 @@
+.sub-b {
+    color:white;
+    background-color: rgb(208, 77, 77);
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 300ms ,
+    box-shadow 300ms; 
+    vertical-align: auto;    
+}
+
+.sub-b:hover {
+   
+    box-shadow: 0 2px 3px black ;
+    opacity: 0.8;
+    
+
+}
+.sub-b:active {
+    opacity: 0.4;
+
+}
+.join {
+    color: blue;
+    background-color: white;
+    border-color:blue;
+    border-color: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 30px;
+    width:70px;
+    cursor: pointer;
+   margin-right: 20px;
+   transition: opacity 250ms,  box-shadow 300ms;
+}
+.join:hover {
+    box-shadow: 0 2px 3px black ;
+    background-color: blue;
+    color:white;
+  
+}
+.join:active {
+    color:black;
+    opacity: 0.4;
+}
+.tweet {
+    color:white;
+    background-color: rgb(49, 116, 233);
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    font:bold;
+    font-size:17px;
+    font-style: normal;
+    transition: opacity 250ms,  box-shadow 300ms;
+    vertical-align: top;
+}
+.tweet:hover {
+    box-shadow: 0 2px 3px black ;
+
+opacity: 0.6;
+
+
+}
+.tweet:active {
+opacity: 0.4;
+color: black;
+}
+.addtocart {
+    background-color: rgb(255,216,20);
+    border:none;
+    border-radius: 30px;
+    height: 35px;
+    width: 140px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: opacity 250ms,  box-shadow 300ms;
+}
+.addtocart:hover {
+    box-shadow: 0 2px 3px black ;
+opacity: 0.6;
+color: black;
+
+}
+.addtocart:active {
+opacity: 0.4;
+color: black;
+}
+
+
+.paragraph {
+color:black;
+
+font-size: 20px;
+font-style: bold;
+margin-top: 50px;
+margin-right: 50px;
+margin-left : 50px;
+opacity: 0.6;
+padding-right:40px;
+padding-left: 40px;
+padding-top: 40px;
+
+padding-bottom: 40px;
+transition: opacity 250ms , color 250ms ;
+
+
+} 
+.paragraph:hover {
+opacity: 1;
+
+
+}
+.paragraph:active {
+color:blue;
+
+}
+.stretch {
+color: white;
+background-color: rgb(29, 121, 29);
+padding: 5px 15px 5px 15px;
+margin-top: 10px;
+border: none;
+border-radius: 2px;
+font-size: 16px;
+transition: padding 250ms , opacity 250ms;
+}
+.stretch:hover {
+padding: 20px 30px 20px 30px;
+opacity: 0.9; 
+box-shadow: 0px 2px 3px black;
+}

@@ -1,0 +1,189 @@
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background-color: white;
+    
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(189, 189, 189);
+    z-index: 100;
+    
+}
+.start-section{
+  
+    min-width:200px;
+
+}
+.middle-section {
+    position: relative;
+   display:flex;    
+    margin-left: 100px;
+    margin-right: 10px;
+    width: 649px;
+
+    align-items: center;
+
+}
+.input-bar{
+    display:flex;
+    width: 300px;
+    flex:1;
+    
+}
+.end-section{
+   
+    min-width: 270px;
+    display:flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    
+    
+
+}
+.images{
+width:30px;
+}
+.image{
+    width:40px
+}
+.b1 {
+    height: 46px;
+    width:70px;
+    border-width: 1px;
+    border-color: rgb(202, 202, 202);
+    border-style: solid;
+}
+.b2 {
+    height:46px;
+    width:40px;
+    border:none;
+    margin-left: 10px;
+    border-radius: 50px;
+    
+}
+.input-b{
+    height:42px;
+    display:flex;
+    flex:1;
+    min-width:0px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-color:gray;
+    border-style: solid;
+    border-width:1px;
+}
+.text2{
+    opacity:1;
+    color:gray;
+}
+.text3{
+    opacity:1;
+    color:gray;
+}
+.left-bar{
+    position: fixed;
+    top:60px;
+    left:0;
+    background-color: white;
+    bottom:0;
+    width:80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 20px;
+    padding-top:20px;
+    align-items: center;
+    padding-left:10px;
+
+}
+.img3{
+    width:60px;
+}
+.img2{
+    position: relative;
+    width:100%;
+
+
+
+} 
+.time{
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    background-color: black;
+}
+.div5{
+    position: relative;
+    padding-right: 4px;
+}
+.notification{
+    position: absolute;
+    font-family: Arial;
+    top:0px;
+    right:0px;
+    background-color: rgb(206, 1, 1);
+    color:white;
+    border-radius: 50%;
+    padding:1px 5px 1px 5px;
+    font-size: 12px;
+    border-color: rgb(206, 1, 1);
+    border-style: solid;
+    border-width: 1px;
+
+    
+
+}
+.searchB {
+    position: relative;
+    z-index: 10000;
+
+
+}
+.searchB .tooltip{
+    z-index: 1000;
+    background-color: black;
+    color:white;
+    bottom:-30px;
+    opacity: 0;
+    transition: opacity 250ms;
+    pointer-events: none;
+
+    
+}
+.searchB:hover .tooltip{
+    opacity: 1;
+}
+.clickToSearch {
+    position: absolute;
+    z-index: 100000;
+    white-space: nowrap;
+    display:flex;
+    justify-content: center;
+    right:-20px;
+    opacity:0;
+    
+}
+.b2 .clickToSearch{
+    opacity: 0;
+    pointer-events: none;
+
+
+    
+}
+.b2:hover .clickToSearch{
+    opacity: 1;
+}
+.b2{
+    
+   
+    
+}

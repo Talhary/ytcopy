@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="searchbar.css">
+    <style>
+        .div1 {
+            display: inline-block;
+        }
+
+        .img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 50px;
+            object-position: left;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+
+        .div2 {
+            display: inline-block;
+            vertical-align: top;
+
+        }
+
+        .text {
+            margin-top: 15px;
+            margin-left: 10px;
+            text-align: left;
+            width: 230px;
+            font-size: 20px;
+            font-family: Arial;
+        }
+
+        .img2 {
+            width: 300px;
+
+        }
+
+        .div3 {
+            display: grid;
+            grid-template-columns: 50px 250px;
+            margin-left: 0px;
+
+        }
+
+        .div4 {
+
+            display: grid;
+            grid-template-columns: 1fr;
+
+            position: relative;
+
+
+        }
+
+        .text2 {
+            text-align: left;
+            margin-top: 12px;
+            width: 150px;
+            margin-left: 10px;
+            font-size: 17px;
+            opacity: 0.7;
+            font-family: Arial;
+
+        }
+
+        .text3 {
+            margin-left: 10px;
+            font-family: Arial;
+            font-size: 17px;
+            opacity: 0.7;
+            margin-top: 3px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            flex-direction: row;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 10px;
+        }
+
+        .search-bar {
+            display: flex;
+            flex-direction: row;
+
+        }
+    </style>
+</head>
+
+<body style="padding-top:60px; padding-left: 80px; height:3000px;  ">
+    <div>
+        <div class="search-bar">
+            <div class="start-section" style="display:grid; grid-template-columns: 50px 1fr;">
+                <img src="practice/youtube-bar/hamburger-menu.svg"
+                    style="width:25px; margin-left: 25px; margin-top: 20px;">
+
+                <img src="practice/youtube-bar/youtube-logo.svg" style="width:100px; margin-top:21px; margin-left:30px">
+            </div>
+            <div class="middle-section">
+                <input class="input-b" type="text" placeholder="Search">
+               
+                <button class="b1">
+                    <div class="searchB" style="position:relative">
+                        <img src="practice/youtube-bar/search.svg" style="height:30px; ">
+                        <div class="tooltip" style="position:absolute"> Search </div>
+                    </div>
+
+                </button>
+
+                <button class="b2"> <img src="practice/youtube-bar/voice-search-icon.svg"> 
+                    <div class="clickToSearch"> click for voice </div> </button>
+            </div>
+            <div class="end-section">
+                <div> <img class="images" src="practice/youtube-bar/upload.svg"> </div>
+                <div> <img class="images" src="practice/youtube-bar/youtube-apps.svg"> </div>
+                <div class="div5">
+                    <img class="images" src="practice/youtube-bar/notifications.svg">
+                    <div class="notification"> 3 </div>
+                </div>
+                <div> <img class="image" src="practice/youtube-bar/my-channel.jpeg"> </div>
+
+            </div>
+        </div>
+        <div class="left-bar">
+            <img class="img3" src="explore.svg">
+            <img class="img3" src="library.svg">
+            <img src="Untitled.png" class="img3" style="width:50px;">
+
+
+        </div>
+
+    </div>
+    <div class="grid">
+        <div class="div4">
+            <div>
+
+                <img class="img2" src="images/thumbnail-10.webp">
+                <div class="time">4:45</div>
+            </div>
+            <div class="div3">
+                <div class="div1">
+
+                    <img class="img" src="images/thumbnail-2.webp">
+
+
+                </div>
+                <div class="div2">
+                    <div class="text"> hello iferi ri ui ihow i can help aaaaaa</div>
+                    <div class="text2"> houi am fine</div>
+                    <div class="text3"> 3.4M views - 6months ago </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="div4">
+            <div>
+                <img class="img2" src="images/thumbnail-10.webp">
+            </div>
+            <div class="div3">
+                <div class="div1">
+                    <img class="img" src="images/thumbnail-2.webp">
+                </div>
+                <div class="div2">
+                    <div class="text"> hello iferi ri ui ihow i can help aaaaaa</div>
+                    <div class="text2"> houi am fine</div>
+                    <div class="text3"> 3.4M views - 6months ago </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="div4">
+            <div>
+                <img class="img2" src="images/thumbnail-10.webp">
+            </div>
+            <div class="div3">
+                <div class="div1">
+                    <img class="img" src="images/thumbnail-2.webp">
+                </div>
+                <div class="div2">
+                    <div class="text"> hello iferi ri ui ihow i can help aaaaaa</div>
+                    <div class="text2"> houi am fine</div>
+                    <div class="text3"> 3.4M views - 6months ago </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="div4">
+            <div>
+                <img class="img2" src="images/thumbnail-10.webp">
+            </div>
+            <div class="div3">
+                <div class="div1">
+                    <img class="img" src="images/thumbnail-2.webp">
+                </div>
+                <div class="div2">
+                    <div class="text"> hello iferi ri ui ihow i can help aaaaaa</div>
+                    <div class="text2"> houi am fine</div>
+                    <div class="text3"> 3.4M views - 6months ago </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="div4">
+            <div>
+                <img class="img2" src="images/thumbnail-10.webp">
+            </div>
+            <div class="div3">
+                <div class="div1">
+                    <img class="img" src="images/thumbnail-2.webp">
+                </div>
+                <div class="div2">
+                    <div class="text"> hello iferi ri ui ihow i can help aaaaaa</div>
+                    <div class="text2"> houi am fine</div>
+                    <div class="text3"> 3.4M views - 6months ago </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="div4">
+            <div>
+                <img class="img2" src="images/thumbnail-10.webp">
+            </div>
+            <div class="div3">
+                <div class="div1">
+                    <img class="img" src="images/thumbnail-2.webp">
+                </div>
+                <div class="div2">
+                    <div class="text"> hello iferi ri ui ihow i can help aaaaaa</div>
+                    <div class="text2"> houi am fine</div>
+                    <div class="text3"> 3.4M views - 6months ago </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
